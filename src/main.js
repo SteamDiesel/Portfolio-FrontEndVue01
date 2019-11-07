@@ -7,10 +7,13 @@ import store from './store'
 
 Vue.use(VueAxios, axios)
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 Vue.component('hello-world', require('./components/HelloWorld.vue').default)
 Vue.component('api-test', require('./components/ApiTest.vue').default)
+Vue.component('base-layout-component', require('./components/layout/BaseLayout.vue').default)
+Vue.component('lander-component', require('./components/layout/Lander.vue').default)
+Vue.component('projects-component', require('./components/layout/Projects.vue').default)
 
 new Vue({
   store,
