@@ -16,7 +16,7 @@
       </div> -->
       <lander-component></lander-component>
       <projects-component></projects-component>
-
+      <about-section-component></about-section-component>
 
   </div>
 </template>

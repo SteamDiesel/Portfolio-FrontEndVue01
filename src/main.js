@@ -14,6 +14,9 @@ Vue.component('api-test', require('./components/ApiTest.vue').default)
 Vue.component('base-layout-component', require('./components/layout/BaseLayout.vue').default)
 Vue.component('lander-component', require('./components/layout/Lander.vue').default)
 Vue.component('projects-component', require('./components/layout/Projects.vue').default)
+Vue.component('project-component', require('./components/layout/Project.vue').default)
+Vue.component('about-section-component', require('./components/layout/AboutSection.vue').default)
+Vue.component('about-component', require('./components/layout/About.vue').default)
 
 new Vue({
   store,
