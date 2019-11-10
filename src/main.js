@@ -17,6 +17,8 @@ Vue.component('projects-component', require('./components/layout/Projects.vue').
 Vue.component('project-component', require('./components/layout/Project.vue').default)
 Vue.component('about-section-component', require('./components/layout/AboutSection.vue').default)
 Vue.component('about-component', require('./components/layout/About.vue').default)
+Vue.component('resume-component', require('./components/Resume.vue').default)
+Vue.component('footer-component', require('./components/layout/Footer.vue').default)
 
 new Vue({
   store,

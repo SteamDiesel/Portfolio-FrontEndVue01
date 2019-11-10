@@ -6,7 +6,7 @@
                 fill="#90cdf4"></path>
             </svg>
         </div>
-        <div class="py-12 sm:px-8">
+        <div class="py-16 sm:px-8 xl:py-32">
             <div class="lg:flex lg:justify-around lg:flex-wrap">
                 <project-component v-for="item in projects" 
                 v-bind:key="item.index" 

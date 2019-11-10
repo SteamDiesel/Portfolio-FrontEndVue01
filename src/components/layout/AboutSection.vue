@@ -6,7 +6,7 @@
             fill="#1a202c"></path>
         </svg>
     </div>
-    <div class=" min-h-screen 
+    <div class=" min-h-screen py-16 sm:px-8 xl:py-32
     sm:px-8 pt-20 
     md:flex md:flex-col md:justify-around md:min-h-full
     lg:flex-row lg:justify-between
