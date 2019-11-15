@@ -14,6 +14,9 @@ footer <br>
 -> contact <br>
 -> download resume
 </div> -->
+    <api-register-component v-show="showRegister"></api-register-component>
+    <api-tester-component></api-tester-component>
+    
     <lander-component v-show="!showResume"></lander-component>
     <projects-component v-show="!showResume"></projects-component>
     <about-section-component v-show="!showResume"></about-section-component>
@@ -33,9 +36,7 @@ export default {
       
     }
   },
-  computed: mapState({
-    showResume: state => state.showResume,
-  })
+  computed: mapState(['showResume', 'showRegister'])
 }
 </script>
 

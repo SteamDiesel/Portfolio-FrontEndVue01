@@ -6,10 +6,19 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     showResume: false,
+    showRegister: true,
+    api_uri: 'http://backend.test/api',
+    auth_token: '',
   },
   mutations: {
     toggleResume (state) {
       state.showResume = !state.showResume;
+    },
+    setToken (state, payload){
+      state.auth_token = payload;
+    },
+    switchRegister(state, payload){
+      state.showRegister = payload;
     }
   },
   actions: {
