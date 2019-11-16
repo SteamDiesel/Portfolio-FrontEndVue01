@@ -14,6 +14,7 @@ footer <br>
 -> contact <br>
 -> download resume
 </div> -->
+    <api-login-component></api-login-component>
     <api-register-component v-show="showRegister"></api-register-component>
     <api-tester-component></api-tester-component>
     

@@ -25,16 +25,17 @@ export default {
     }
   },
   computed:{
-    ...mapState(['api_uri'])
+    ...mapState(['api_uri', 'auth_token'])
   },
   methods:{
     test(){
-        this.axios.get(this.api_uri + '/test', 
+      this.message = '';
+        this.axios.post(this.api_uri + '/test', 
         { 
-          
+          name: 'JAson'
         },
         {
-          headers: {'X-Requested-With': 'XMLHttpResponse'}
+          headers: {'X-Requested-With': 'XMLHttpResponse', 'Authorization': 'Bearer ' + this.auth_token}
         }
         ).then(response=>{
           this.message = response.data.message

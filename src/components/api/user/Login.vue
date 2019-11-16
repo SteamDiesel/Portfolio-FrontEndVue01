@@ -26,7 +26,7 @@ import {
     mapMutations 
     } from "vuex"
 export default {
-    name: 'RegisterComponent',
+    name: 'Login Component',
     data(){
         return {
             message: '',
@@ -49,7 +49,10 @@ export default {
                 headers: {'X-Requested-With': 'XMLHttpResponse'}
                 }
                 ).then(response=>{
-                this.message = response.data.message
+                this.setToken({
+                    token: response.data.auth_token, 
+                    type: response.data.token_type
+                })
                 }).catch(error=>{
                 window.console.log(error);
             });

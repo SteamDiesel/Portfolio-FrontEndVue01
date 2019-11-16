@@ -15,7 +15,7 @@ export default new Vuex.Store({
       state.showResume = !state.showResume;
     },
     setToken (state, payload){
-      state.auth_token = payload;
+      state.auth_token = payload.token;
     },
     switchRegister(state, payload){
       state.showRegister = payload;
