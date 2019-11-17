@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-gray-600 flex items-center justify-center">
+  <div class="h-full bg-gray-600 flex items-center justify-center">
     <div class="flex flex-col p-4">
       <button class="text-xl font-bold p-6 bg-orange-500 hover:bg-orange-300 rounded-lg" 
       @click="test">

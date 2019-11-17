@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-gray-600 flex items-center justify-center">
+  <div class="h-full bg-gray-600 flex items-center justify-center">
     <form @submit.prevent="login">
             <div class="flex flex-col p-4">
         
@@ -26,7 +26,7 @@ import {
     mapMutations 
     } from "vuex"
 export default {
-    name: 'Login Component',
+    name: 'LoginComponent',
     data(){
         return {
             message: '',

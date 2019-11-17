@@ -1,13 +1,13 @@
 <template>
-    <div class="h-screen bg-gray-600 flex items-center justify-center">
+    <div class="h-full bg-gray-600 flex items-center justify-center">
         <form @submit.prevent="registerUser">
             <div class="flex flex-col p-4">
         
                 <h2 class="text-3xl font-semibold">Register</h2>
                 <input class="p-3 mb-2" autocomplete="name" type="text" 
-                placeholder="name" v-model="name">
+                placeholder="your name" v-model="name">
                 <input class="p-3 mb-2" autocomplete="email" type="email" 
-                placeholder="email" v-model="email">
+                placeholder="your email" v-model="email">
                 <span v-if="email_error">{{email_error}}</span>
                 <input class="p-3 mb-2" autocomplete="new-password" type="password" 
                 placeholder="password" v-model="password">
@@ -61,7 +61,7 @@ export default {
                 }
                 ).then(response=>{
                     this.message = response.data.message;
-                    this.switchRegister(response.data.show_register);
+                    // this.switchRegister(response.data.show_register);
                 }).catch(error=>{
                     window.console.log(error);
             });

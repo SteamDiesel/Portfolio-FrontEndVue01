@@ -5,10 +5,15 @@
 </template>
 
 <script>
-
+import { mapActions } from 'vuex'
 export default {
   name: 'app',
-  
+  methods: {
+    ...mapActions(['siteLoad'])
+  },
+  mounted(){
+    this.siteLoad();
+  }
 }
 </script>
 
