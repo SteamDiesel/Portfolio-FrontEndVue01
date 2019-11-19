@@ -80,14 +80,14 @@
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Auto Approve ~</span> September 2018 - Present</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                
                         </p>
                     </div>
 
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Highsight Finance ~</span> January 2017 - July 2017</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                
                         </p>
                     </div>
                     
@@ -95,7 +95,7 @@
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Moneyspace ~</span> March 2016 - December 2016</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                
                         </p>
                     </div>
 
@@ -103,14 +103,14 @@
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">1800approved ~</span> September 2014 - February 2016</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                
                         </p>
                     </div>
                     
                     <div class="pl-5 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Locum Business Manager ~</span> January 2012 - Present</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                
                         </p>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Telstra Contact Centre ~</span> 2011 </h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                
                         </p>
                     </div>
                     
@@ -129,7 +129,7 @@
                     <div class="pl-5 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Vodafone Hutchison Australia ~</span> 2008 - 2010 </h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                
                         </p>
                     </div>
                     
@@ -142,7 +142,7 @@
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">McCracken's Water Services ~</span> 2005 - 2008</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                
                         </p>
                     </div>
                     
@@ -150,7 +150,7 @@
                     <div class="pl-5 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">The Electrical Workshop ~</span> 2003 - 2004 </h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                
                         </p>
                     </div>
                     

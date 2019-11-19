@@ -1,7 +1,7 @@
 <template>
   <div>
        <!-- Header section -->
-    <div class="container mx-auto px-2 flex mt-3 mb-10 text-gray-600 text-sm">
+    <div class="container mx-auto px-2 flex mt-3 mb-10 text-gray-600 text-xs">
         <div class="w-32">
             <svg viewBox="-13 0 511 512" >
                 <path d="m328.554688 480.546875c0 17.371094-14.082032 31.453125-31.453126 31.453125-17.371093 0-31.453124-14.082031-31.453124-31.453125s14.082031-31.453125 31.453124-31.453125c17.371094 0 31.453126 14.082031 31.453126 31.453125zm0 0" 
@@ -33,7 +33,7 @@
             </p>
         </div>
     </div>
-    <div class="container flex mx-auto px-2 text-gray-600 text-sm"> 
+    <div class="container flex mx-auto px-2 text-gray-600 text-xs"> 
         <!-- Left column -->    
         <div class="mr-10">
 
@@ -51,14 +51,14 @@
                 </div>
             </div>
 
-            <div class="mb-12 ">
+            <div class="mb-12 text-xs">
                 <h2 class="text-2xl font-bold text-orange-600 mb-4">Experience</h2>
 
                 <!-- Career -->
                 <div class="pl-5 pb-10 ml-1 vl">
                     <h3 class="text-gray-600 font-semibold">Full-Stack Web Developer [ 2 years ]</h3>
                     <!-- job -->
-                    <div class="pl-5 ml-1 vl-dent">
+                    <div class="pl-5 ml-1 pb-8 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Own Solo Project (Private Git Repo) ~</span> January 2018 - Present</h4>
                         <p class="">
                             Project is a custom CRM built for use in a finance brokerage. <br>
@@ -66,8 +66,29 @@
                             Keeping Existing laravel spark licence to handle subscription billing on a separate server, Laravel Nova for the Admin on API backend.<br>
                             v2 [9 months to Sept 2019] was a Vue.js (with vuex and vue-router) SPA embedded on a page served by Laravel 5.8 with Laravel Spark as the subscription billing. 
                             Deployed using Laravel Forge on digital ocean.<br>
-                            v1 [9 months to sept 2018] was a static page Laravel web app. Built as a simple MVC CRUD app. 
+                            v1 [9 months to sept 2018] was a static page Laravel web app. Built as a simple MVC CRUD app. <br>
+                            
+                        </p>
+                    </div>
+                    <div class="pl-5 ml-1 pb-8 vl-dent">
+                        <h4 class="text-orange-600"> <span class="font-semibold">Own portfolio website - <a class="underline" href="https://steamdiesel.dev/" target="_blank">Steamdiesel.dev</a>  ~</span> November 2019 - Present</h4>
+                        <p class="">
+                            Under construction. Building using a vueJS single page application which retrives data to render the site content via calls to an API backend built on laravel. 
                             <br>
+                            Laravel, VueJS with vuex & Tailwind.
+                        </p>
+                    </div>
+                    <div class="pl-5 ml-1 vl-dent">
+                        <h4 class="text-orange-600"> <span class="font-semibold">Own Solo Project (Private Git Repo) ~</span> November 2018 - Present</h4>
+                        <p class="">                            
+                            
+                            SAAS application allowing users to send finance applications to their clients and recieve the complete or incomplete application back from them. <br>
+                            Built to replace the common practice of motor trade Business Managers emailing a lousy PDF application to a customer and, if they get it back at all, interpereting their handwriting. <br>
+                            Built after hours and on weekends. Not yet deployed. <br>
+                            Registered user creates a new finance application and sends a unique link to the client by email or sms, the client opens the link and is prompted through the application questions in a conversational manner. <br>
+                            Built as a simple CRUD MVC server rendered pages with some javascript sprinkled through for little animations. <br>
+                            Laravel, VueJS, Bootstrap & Tailwind.
+
                         </p>
                     </div>
                     
@@ -80,14 +101,14 @@
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Auto Approve ~</span> September 2018 - Present</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                Finance broker & Business Manager.
                         </p>
                     </div>
 
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Highsight Finance ~</span> January 2017 - July 2017</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                Finance Broker and Support role.
                         </p>
                     </div>
                     
@@ -95,7 +116,7 @@
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Moneyspace ~</span> March 2016 - December 2016</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                Co-founder, Finance Broker and Wordpress developer.
                         </p>
                     </div>
 
@@ -103,14 +124,14 @@
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">1800approved ~</span> September 2014 - February 2016</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                Finance Broker.
                         </p>
                     </div>
                     
                     <div class="pl-5 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Locum Business Manager ~</span> January 2012 - Present</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                Motor Trade Business Manager Locum. Worked as independent contractor.
                         </p>
                     </div>
                 </div>
@@ -121,7 +142,7 @@
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Telstra Contact Centre ~</span> 2011 </h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                Inbound customer care role for business customers.
                         </p>
                     </div>
                     
@@ -129,7 +150,8 @@
                     <div class="pl-5 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">Vodafone Hutchison Australia ~</span> 2008 - 2010 </h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                Inbound sales role in call centre: receiving calls from peole responding to mailers and direct marketing campaigns. <br>
+                                Outbound sales role in call centre: cold and lukewarm calls to businesses to generate leads and set appointments for business reps to visit and sell phone plans.
                         </p>
                     </div>
                     
@@ -142,7 +164,7 @@
                     <div class="pl-5 pb-8 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">McCracken's Water Services ~</span> 2005 - 2008</h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                Technical retail role, size and select for clients pumps based on duty and requirements.
                         </p>
                     </div>
                     
@@ -150,7 +172,7 @@
                     <div class="pl-5 ml-1 vl-dent">
                         <h4 class="text-orange-600"> <span class="font-semibold">The Electrical Workshop ~</span> 2003 - 2004 </h4>
                         <p class="">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus quia dolores voluptatibus eum tempore necessitatibus deserunt beatae exercitationem, quidem enim perferendis rem aliquam modi animi ut voluptates excepturi placeat.
+                                Technical retail role, selling water pumps, power tools and electric motors.
                         </p>
                     </div>
                     

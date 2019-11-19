@@ -6,9 +6,9 @@
     <about-section-component v-show="!showResume"></about-section-component>
     
     <resume-component v-show="showResume" ></resume-component>
-    <api-login-component v-show="showLogin"></api-login-component>
+    <!-- <api-login-component v-show="showLogin"></api-login-component>
     <api-register-component v-show="showRegister"></api-register-component>
-    <api-tester-component></api-tester-component>
+    <api-tester-component></api-tester-component> -->
     <footer-component class="no-print"></footer-component>
 
 </div>
