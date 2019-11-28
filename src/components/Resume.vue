@@ -67,7 +67,6 @@
                             v2 [9 months to Sept 2019] was a Vue.js (with vuex and vue-router) SPA embedded on a page served by Laravel 5.8 with Laravel Spark as the subscription billing. 
                             Deployed using Laravel Forge on digital ocean.<br>
                             v1 [9 months to sept 2018] was a static page Laravel web app. Built as a simple MVC CRUD app. <br>
-                            
                         </p>
                     </div>
                     <div class="pl-5 ml-1 pb-8 vl-dent">

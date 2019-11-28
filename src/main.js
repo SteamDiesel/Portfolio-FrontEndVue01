@@ -23,6 +23,7 @@ Vue.component('footer-component', require('./components/layout/Footer.vue').defa
 Vue.component('api-tester-component', require('./components/api/ApiTester.vue').default)
 Vue.component('api-login-component', require('./components/api/user/Login.vue').default)
 Vue.component('api-register-component', require('./components/api/user/Register.vue').default)
+Vue.component('login-section-component', require('./components/layout/LoginSection.vue').default)
 
 new Vue({
   store,

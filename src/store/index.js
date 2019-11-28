@@ -21,7 +21,8 @@ export default new Vuex.Store({
     showResume: false,
     showRegister: true,
     showLogin: true,
-    api_uri: 'http://backend.test/api',
+    api_uri: 'https://api.steamdiesel.dev/api',
+    // api_uri: 'http://backend.test/api',
     auth_token: '',
   },
   mutations: {

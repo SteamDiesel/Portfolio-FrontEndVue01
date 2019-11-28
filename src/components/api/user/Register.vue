@@ -1,21 +1,21 @@
 <template>
-    <div class="h-full bg-gray-600 flex items-center justify-center">
+    <div class="h-full flex items-center justify-center">
         <form @submit.prevent="registerUser">
             <div class="flex flex-col p-4">
         
-                <h2 class="text-3xl font-semibold">Register</h2>
-                <input class="p-3 mb-2" autocomplete="name" type="text" 
+                
+                <input class="p-3 mb-4 bg-gray-200 placeholder-gray-800 text-orange-600 text-lg font-semibold tracking-wide rounded-lg " autocomplete="name" type="text" 
                 placeholder="your name" v-model="name">
-                <input class="p-3 mb-2" autocomplete="email" type="email" 
+                <input class="p-3 mb-4 bg-gray-200 placeholder-gray-800 text-orange-600 text-lg font-semibold tracking-wide rounded-lg " autocomplete="email" type="email" 
                 placeholder="your email" v-model="email">
                 <span v-if="email_error">{{email_error}}</span>
-                <input class="p-3 mb-2" autocomplete="new-password" type="password" 
+                <input class="p-3 mb-4 bg-gray-200 placeholder-gray-800 text-orange-600 text-lg font-semibold tracking-wide rounded-lg " autocomplete="new-password" type="password" 
                 placeholder="password" v-model="password">
-                <input class="p-3 mb-2" autocomplete="new-password" type="password" 
+                <input class="p-3 mb-4 bg-gray-200 placeholder-gray-800 text-orange-600 text-lg font-semibold tracking-wide rounded-lg " autocomplete="new-password" type="password" 
                 placeholder="confirm password" v-model="password_confirmation">
 
                 <button 
-                class="text-xl font-bold p-6 bg-orange-500 hover:bg-orange-300 rounded-lg" 
+                class="text-xl m-auto font-bold px-6 py-3 bg-gray-800 glow-orange text-orange-400 rounded-lg hover:bg-gray-700" 
                 type="submit">
                     Register
                 </button>

@@ -56,6 +56,7 @@
                 </svg>
             </div>
         </div> -->
+        <!-- A simple front end website build on VueJS and Vuex -->
     </div>
 </template>
 
