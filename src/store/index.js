@@ -6,6 +6,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    projects: [],
     lander_title: '',
     lander_subtitle: '',
     lander_location: '',
@@ -40,6 +41,9 @@ export default new Vuex.Store({
       state.contact_github = payload.content.contact_github;
       state.contact_location = payload.content.contact_location
     },
+    setProjects(state, payload){
+      state.projects = payload;
+    },
     toggleResume (state) {
       state.showResume = !state.showResume;
     },
@@ -57,8 +61,8 @@ export default new Vuex.Store({
       });
     },
     projectsLoad({state, commit}){
-      Axios.get(state.api_uri + '/projects/1').then(response => {
-        commit('setProjects', response.data);
+      Axios.get(state.api_uri + '/siteprojects/1').then(response => {
+        commit('setProjects', response.data.projects);
       });
     }
   },

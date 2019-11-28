@@ -17,17 +17,16 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
     name: "Projects",
     data(){
         return {
-            projects:[
-                { name: "Project 01", summary: "lorem ipsum"},
-                { name: "Project 02", summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores placeat, ea exercitationem eligendi accusantium excepturi nulla distinctio ipsa adipisci quisquam magnam quasi sint sit illo alias cumque saepe eum"},
-                { name: "Project 03", summary: "lorem ipsum"},
-                { name: "Project 04", summary: "lorem ipsum"},
-            ]
+            
         }
+    },
+    computed: {
+        ...mapState(['projects'])
     }
 }
 </script>

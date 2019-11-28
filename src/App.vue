@@ -9,10 +9,11 @@ import { mapActions } from 'vuex'
 export default {
   name: 'app',
   methods: {
-    ...mapActions(['siteLoad'])
+    ...mapActions(['siteLoad', 'projectsLoad'])
   },
   mounted(){
     this.siteLoad();
+    this.projectsLoad();
   }
 }
 </script>
