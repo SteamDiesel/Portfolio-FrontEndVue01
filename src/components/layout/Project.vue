@@ -29,7 +29,7 @@
         @click.prevent=""
           class="font-semibold rounded-full px-2 py-1 bg-green-400 rounded-sm hover:bg-green-300 mr-4 mb-2"
         >More info</button>-->
-        <a :href="project.url" v-if="project.url">
+        <a :href="project.url" v-if="project.url" target="_blank">
           <button
             class="font-semibold rounded-full px-2 py-1 bg-green-400 rounded-sm hover:bg-green-300 mr-4 mb-2"
           >Live Demo</button>
