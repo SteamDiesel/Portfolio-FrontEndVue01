@@ -3,10 +3,10 @@
    
     <lander-component v-show="!showResume"></lander-component>
     <projects-component v-show="!showResume"></projects-component>
-    <about-section-component v-show="!showResume"></about-section-component>
-    <login-section-component v-show="!showResume"></login-section-component>
+    <!-- <about-section-component v-show="!showResume"></about-section-component> -->
+    <!-- <login-section-component v-show="!showResume"></login-section-component> -->
     
-    <resume-component v-show="showResume" ></resume-component>
+    <!-- <resume-component v-show="showResume" ></resume-component> -->
     
     <footer-component class="no-print"></footer-component>
 
