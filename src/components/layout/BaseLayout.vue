@@ -8,7 +8,7 @@
     
     <!-- <resume-component v-show="showResume" ></resume-component> -->
     
-    <footer-component class="no-print"></footer-component>
+    <!-- <footer-component class="no-print"></footer-component> -->
 
 </div>
 </template>
