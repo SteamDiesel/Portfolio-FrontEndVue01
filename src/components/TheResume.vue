@@ -1,7 +1,7 @@
 <template>
   <div>
        <!-- Header section -->
-    <div class="container mx-auto px-2 flex mt-3 mb-10 text-gray-600 text-sm">
+    <div class="px-2 flex mt-3 mb-10 text-gray-600 text-sm">
         <div class="w-32">
             <svg viewBox="-13 0 511 512" >
                 <path d="m328.554688 480.546875c0 17.371094-14.082032 31.453125-31.453126 31.453125-17.371093 0-31.453124-14.082031-31.453124-31.453125s14.082031-31.453125 31.453124-31.453125c17.371094 0 31.453126 14.082031 31.453126 31.453125zm0 0" 
@@ -33,7 +33,7 @@
             </p>
         </div>
     </div>
-    <div class="container flex mx-auto px-2 text-gray-600 text-sm"> 
+    <div class="flex px-2 text-gray-600 text-sm"> 
         <!-- Left column -->    
         <div class="mr-10">
 
@@ -42,11 +42,7 @@
                 <div class="pl-10 ml-2 vl">
                     <!-- Web Developer -->
                     <p class="">
-                        Experienced building scalable & responsive web applications with PHP in Laravel, Javascript using Vue.js, CSS using Bootstrap and Tailwindcss. <br>
-                        Main personal project is a Finance & Insurance CRM with laravel backend as API endpoint accessed by a Vue.js frontend.<br>
-                        Practical understanding of common web application architectures, with the perspective of both a project stakeholder and developer. <br>
-                        Background in Motor Trade Finance & Insurance with transferrable skills for concise communication, attention to detail, 
-                        fluctuating workloads and urgent deadlines. <br>
+                       
                     </p>
                 </div>
             </div>

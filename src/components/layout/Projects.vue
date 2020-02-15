@@ -8,18 +8,22 @@
         </div>
         <div class="py-16 sm:px-8 xl:py-32">
             <div class="lg:flex lg:justify-around lg:flex-wrap">
-                <project-component v-for="item in projects" 
+                <Project v-for="item in projects" 
                 v-bind:key="item.index" 
-                v-bind:project="item"></project-component>
+                v-bind:project="item"></Project>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import Project from '@/components/layout/Project.vue'
+import { mapState, mapActions } from 'vuex'
 export default {
-    name: "Projects",
+	name: "Projects",
+	components:{
+		Project
+	},
     data(){
         return {
             
@@ -27,7 +31,14 @@ export default {
     },
     computed: {
         ...mapState(['projects'])
-    }
+	},
+	methods: {
+		...mapActions(["siteLoad", "projectsLoad"])
+	},
+	mounted() {
+		this.siteLoad();
+		this.projectsLoad();
+	}
 }
 </script>
 

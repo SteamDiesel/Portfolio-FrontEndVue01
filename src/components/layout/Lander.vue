@@ -1,9 +1,5 @@
 <template>
-    <div class=" bg-fixed bg-gray-100 max-h-screen min-h-screen 
-    sm:bg-orange-200 
-    md:bg-blue-100
-    lg:bg-red-100
-    xl:bg-green-100">
+    <div class=" bg-fixed bg-gray-100 max-h-screen min-h-screen">
         <div class="lg:flex lg:justify-around lg:items-center lg:h-screen">
             <div class="pt-4 w-2/3 mx-auto 
             md:w-1/2 
@@ -30,8 +26,8 @@
             <div class="flex pt-16 items-center justify-center 
             md:pt-24
             lg:h-full lg:items-center lg:pt-0">
-                <transition name="slide-fade">
-                <div class="" v-if="lander_title">
+                
+                <div>
                     <div class="text-center lg:text-left ">
                         <h1 class=" text-5xl text-orange-600 font-semibold subpixel-antialiased
                         md:text-6xl xl:tracking-wider">
@@ -44,7 +40,7 @@
                         </h2>
                     </div>
                 </div>
-                </transition>
+              
                 
             </div>
         </div>
@@ -62,29 +58,23 @@
 </template>
 
 <script>
-import {mapState} from 'vuex'
+
 export default {
-    name: 'LanderSplash',
-    computed:{
-        ...mapState([
-            'lander_title',
-            'lander_subtitle',
-            'lander_location ',
-            ])
-    }
+    name: 'Lander',
+    data(){
+		return{
+			lander_title: 'Jason Law',
+			lander_subtitle: 'Full stack developer',
+			show: false
+		}
+	},
+	mounted(){
+		
+	}
 }
 </script>
 
 <style>
-    .slide-fade-enter-active {
-        transition: all .8s cubic-bezier(1.0, 0.8, 0.5, 1.0);
-    }
-    .slide-fade-leave-active {
-        transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-    }
-    .slide-fade-enter, .slide-fade-leave-to {
-        transform: translateY(30px);
-        opacity: 0;
-    }
+
 
 </style>
